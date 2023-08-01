@@ -1,0 +1,89 @@
+.main-right {
+    flex-grow: 1;
+    max-width: 896px;
+}
+
+.repsitories-main-options {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 16px 0px;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.find-repository-input {
+    margin-right: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 505px;
+    min-width: 220px;
+}
+
+.repository-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 24px 0px;
+    width: 100%;
+}
+
+.repository-item-left * {
+    color: #656d76;
+}
+
+.repository-item-name {
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #0969da;
+}
+
+.repository-item_open-status {
+    margin: 0px 0px 4px 4px;
+    margin: 1px;
+    padding: 0px 7px;
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #656d76;
+}
+
+.repository-item-description {
+    margin-bottom: 8px;
+    padding-right: 24px;
+    font-weight: 300;
+    color: #656d76;
+}
+
+.repository-item-info {
+    margin-top: 8px;
+}
+
+.html-circle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #e34c26;
+}
+
+.repository-item-language-info {
+    margin-right: 16px;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.repository-item-past-time-info {
+    font-size: 12px;
+}
+
+.repository-item-right * {
+    font-size: 12px;
+}
+
+.repository-star {
+    margin-right: 8px;
+    font-size: 12px;
+}

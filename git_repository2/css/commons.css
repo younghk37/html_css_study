@@ -1,0 +1,31 @@
+.btn {
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+    padding: 5px 16px;
+    background-color: #f6f8fa;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #1a7f37;
+    color: white;
+}
+
+.btn-success * {
+    color: white;
+}
+
+.text-input {
+    border: 1px solid #dbdbdb;
+    border-radius: 6px;
+    padding: 5px 12px;
+}
+
+.text-input:focus {
+    outline: 2px solid #0969da;
+}
+
+.wf {
+    width: 100%;
+}
