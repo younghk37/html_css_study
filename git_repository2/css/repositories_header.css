@@ -3,3 +3,18 @@
     height: 104px;
     background-color: rgb(246, 248, 250);
 }
+
+.header-upside {
+    display: flex;
+}
+
+.header-downside {
+    display: flex;
+    align-content: flex-start;
+    padding: 0px 16px;
+}
+
+.header-nav-items {
+    display: flex;
+    align-content: space-between;
+}
